@@ -23,7 +23,7 @@ body{
     flex-wrap: wrap;
     width: 347px;
     height: 466.97px;
-    left: 40%;
+    left: 50%;
     top: 50px;
     display: flex;
     flex-direction: row;
@@ -105,7 +105,7 @@ h3{
 
 .logo-cinema{
     position: absolute;
-    background: url(/img/Logo\ cinema.png) no-repeat;
+    background: url(/img/Logo\ cinema.png) ;
     background-size: cover;
     width: 466px;
     height: 198px;
@@ -163,3 +163,77 @@ h3{
 .entrar-principal a{
     color: #ffff;
 }
+
+
+.principal-login{
+    position: absolute;
+    flex-wrap: wrap;
+    width: 347px;
+    height: 466.97px;
+    left: 35%;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-login{
+    background: url(/img/Logo\ cinema.png) no-repeat;
+    width: 152.88px;
+    height: 59.07px;
+    background-size: contain;
+}
+
+.titulo-login{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}    
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--black);
+}
+
+.div-login{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.input-login{
+    width: 467.14px;
+    height: 49.68px;
+    background-color: #d4cccc;
+    border-radius: 10px;
+    border: transparent;
+    outline: none;
+    padding: 10px;
+    color: var(--black);
+}
+
+.texto-login{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000000;
+    display: flex;
+    
+}
+
+.btn-login{
+    width: 467.14px;
+    height: 78.38px;
+    background: var(--red);
+    color: #ffff;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
