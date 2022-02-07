@@ -21,20 +21,25 @@
                 <input class="input-cadastro"  type="email" name="email" id="email" placeholder="Email" required>
                 <input class="input-cadastro"  type="email" name="confirmar-email" id="confirmar-email" placeholder="Confirmar Email" required>
                 <input class="input-cadastro"  type="password" name="senha" id="senha" placeholder="Senha" required>
-                <input class="input-cadastro"  type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirmar Email" required>
+                <input class="input-cadastro"  type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirmar Senha" required>
 
-                <div>
-                    <input type="checkbox" name="concordar" required>
-                    <span class="concordar-checkbox"></span>
-                    <label for="concordar">Ao se cadastrar na Gyzu você concorda com o termo de privacidade e termo de uso.</label>
+                <div class="checkbox-label">
+                    <label class="container">
+                        <input type="checkbox" name="concordar" required>Ao se cadastrar na Gyzu você concorda com o termo de privacidade e termo de uso.
+                        <span class="checkmark"></span>
+                    </label>
+                    
+                
                 </div>
 
-                <div>
-                    <button> <a href="/login.html"></a> Voltar</button>
-                    <button type="submit">Avançar</button>
-                </div>
-        
+                <div class="button-cadastro">
+                    <button class="btn-cadastro" type="submit">Avançar</button>
+                </div>  
             </form>
+            <div class="button-voltar">
+                <button class="btn-voltar"> <a href="/login.html"></a> Voltar</button>
+            </div>
+            
         </section>
 
     </div>
