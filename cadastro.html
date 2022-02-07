@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema Gyzu</title>
+</head>
+<body>
+    <div class="principal-cadastro">
+        <section class="header-cadastro">
+            <h1>Preencha seu cadastro</h1>
+            <div class="logo-cadastro"></div>
+        </section>
+        <section>
+            <form action="/home.html" method="get">
+                <input class="input-cadastro" type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                <input class="input-cadastro"  type="text" name="apelido" id="apelido" placeholder="Apelido" required>
+                <input class="input-cadastro"  type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+                <input class="input-cadastro"  type="email" name="email" id="email" placeholder="Email" required>
+                <input class="input-cadastro"  type="email" name="confirmar-email" id="confirmar-email" placeholder="Confirmar Email" required>
+                <input class="input-cadastro"  type="password" name="senha" id="senha" placeholder="Senha" required>
+                <input class="input-cadastro"  type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirmar Email" required>
+
+                <div>
+                    <input type="checkbox" name="concordar" required>
+                    <span class="concordar-checkbox"></span>
+                    <label for="concordar">Ao se cadastrar na Gyzu você concorda com o termo de privacidade e termo de uso.</label>
+                </div>
+
+                <div>
+                    <button> <a href="/login.html"></a> Voltar</button>
+                    <button type="submit">Avançar</button>
+                </div>
+        
+            </form>
+        </section>
+
+    </div>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>

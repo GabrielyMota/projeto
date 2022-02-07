@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Cinema Gyzu</title>
 </head>
+
 <body>
-    <div class="principal-login">
-        <div class="logo-login"></div>
-        <div class="titulo-login">
-            <h1>Faça seu login</h1>
+    <div class="img-elipse">
+        <div class="principal-login">
+            <div class="logo-login"></div>
+            <div class="titulo-login">
+                <h1>Faça seu login</h1>
+            </div>
+    
+            <div class="div-login">
+                <input class="input-login" type="text" placeholder="Email">
+                <div class="input-senha">
+                    <input class="senha" type="password" id="mostrar" placeholder="Senha">
+                    <button onclick="mostrarSenha()"><img class="btn-mostrar" src="/img/olho-aberto.png" alt="mostrarSenha"></button>
+
+                </div>
+                <a class="texto-login" href="#">Esqueci minha senha</a>
+                <a href="/home.html" ><button  class="btn-login" type="submit"> Entrar</button></a>
+                <p class="texto-login">Não tem uma conta? </p><a class="texto-login" href="/cadastro.html"> Cadastre-se</a>
+            </div>
+    
         </div>
-
-        <div class="div-login">
-            <input class="input-login" type="text" placeholder="Email">
-            <input class="input-login" type="password" placeholder="Senha">
-            <a class="texto-login" href="#">Esqueci minha senha</a>
-            <button class="btn-login" type="submit">Entrar</button>
-            <p class="texto-login">Não tem uma conta? </p><a class="texto-login" href="#">Cadastre-se</a>
-        </div>
-
-
-        
-
-
     </div>
 
     <script src="/main.js"></script>
 </body>
+
 </html>
